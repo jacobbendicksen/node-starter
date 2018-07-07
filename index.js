@@ -19,7 +19,9 @@ app.get('/', (req, res) => {
 });
 
 app.post('/name', (req, res) => {
-    res.render('index', {name: req.body.name});
+    res.render('index', {
+        name: req.body.name
+    });
 });
 
 app.listen(4000);
