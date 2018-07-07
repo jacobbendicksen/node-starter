@@ -4,7 +4,7 @@
     "description": "Starter framework for Node apps with Handlebars and Express",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "mocha",
         "start": "./node_modules/.bin/gulp"
     },
     "repository": {
@@ -29,6 +29,7 @@
         "eslint-plugin-jsx-a11y": "^6.1.0",
         "eslint-plugin-react": "^7.10.0",
         "gulp": "^3.9.1",
-        "gulp-nodemon": "^2.2.1"
+        "gulp-nodemon": "^2.2.1",
+        "mocha": "^5.2.0"
     }
 }
