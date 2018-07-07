@@ -11,6 +11,6 @@ gulp.task('default', function() {
     })
         .on('change', ['lint'])
         .on('restart', function() {
-            console.log('restarted!');
+            //console.log('restarted!');
         });
 });
